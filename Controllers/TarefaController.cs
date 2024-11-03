@@ -13,7 +13,7 @@ namespace TrilhaApiDesafio.Controllers
         public TarefaController(OrganizadorContext context)
         {
             _context = context;
-        }
+        } 
 
         [HttpGet("{id}")]
         public IActionResult ObterPorId(int id)
